@@ -6,8 +6,8 @@ ini_set('max_execution_time', 300); //300 seconds = 5 minutes. In case if your C
 
 error_reporting(E_ALL);
 
-define('OAUTH2_CLIENT_ID', '810187985916002334');
-define('OAUTH2_CLIENT_SECRET', 'szlLv_speKLjQ6UyM-8vxpZHyiWKU8La');
+define('OAUTH2_CLIENT_ID', '-------');
+define('OAUTH2_CLIENT_SECRET', '------');
 
 $authorizeURL = 'https://discord.com/api/oauth2/authorize';
 $tokenURL = 'https://discord.com/api/oauth2/token';
