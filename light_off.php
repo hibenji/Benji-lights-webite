@@ -24,11 +24,11 @@ $tag = $_SESSION['tag'];
 
 
 
-$webhookurl = "https://ptb.discord.com/api/webhooks/851121031880114217/UYNx_qGDGLuP9_SguHDNi00a6nZ7vABUpXS9_GtMERqG0B9Ds7Jr-43bDsK_A2gFpsOG";
+$webhookurl = "<webhook-url-here>";
 
 $ip = $_SERVER['REMOTE_ADDR'];
 
-$ipinfo_raw = file_get_contents("http://ipinfo.io/". $ip . "?token=ea28b60b238fc6");
+$ipinfo_raw = file_get_contents("http://ipinfo.io/". $ip . "?token=<token-here>");
 
 
 
